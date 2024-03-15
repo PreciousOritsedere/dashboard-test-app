@@ -12,7 +12,7 @@ import Logout from "../../public/assets/icons/logout.svg";
 
 export default function DashboardNav() {
   return (
-    <main className="max-w-[260px] w-full h-full fixed top-0 left-0 flex flex-col gap-12 border border-gray-400 bg-[#00B02D] text-sm">
+    <main className="max-w-[260px] w-full h-full fixed top-0 left-0 flex flex-col gap-12 border border-gray-400 bg-[#00B02D] text-sm text-white">
       <section>
         <div className="flex items-center justify-center py-2.5 px-5 border-b border-gray-400">
           <Image src={Logo} alt="logo" />
@@ -42,7 +42,7 @@ export default function DashboardNav() {
         </section>
 
         <section className="flex flex-col gap-4 p-5">
-          <h3>Preferences</h3>
+          <h3 className="text-xl font-bold">Preferences</h3>
 
           <div className="flex items-center justify-left gap-3 py-2 px-4">
             <Image src={DarkMode} alt="dashboard icon" />
