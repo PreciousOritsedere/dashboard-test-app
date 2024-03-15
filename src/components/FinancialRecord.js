@@ -47,11 +47,11 @@ export default function FinancialRecord() {
         </div>
       </section>
 
-      <section className="flex items-center justify-between">
+      <section className="w-full flex items-center gap-5">
         {financialData.map((data, index) => (
           <div
             key={index}
-            className=" max-w-56 w-full flex flex-col gap-3 p-4 border border-gray-200 rounded-xl"
+            className=" w-full flex flex-col gap-3 p-4 border border-gray-200 rounded-xl"
           >
             <p>{data.title}</p>
             <h3 className="font-bold text-base text-black">{data.amount}</h3>
