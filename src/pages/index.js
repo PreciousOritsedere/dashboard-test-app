@@ -20,7 +20,7 @@ export default function Home() {
             <Transactions />
           </div>
 
-          <div className="w-full flex flex-col gap-5">
+          <div className="max-w-sm w-full flex flex-col gap-5">
             <Wallet />
             <AccountRevenue />
           </div>
