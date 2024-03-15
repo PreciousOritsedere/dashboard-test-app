@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col gap-[100px] ">
         <Header />
 
-        <section className="w-full flex-col gap-[30px] py-4 px-6 overflow-y-scroll mt-10 md:flex-row">
+        <section className="w-full flex flex-col gap-[30px] py-4 px-6 overflow-y-scroll mt-10 md:flex-row">
           <div className="w-full flex flex-col gap-5">
             <FinancialRecord />
             <Statistics />

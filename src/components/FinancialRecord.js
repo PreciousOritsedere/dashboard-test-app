@@ -51,7 +51,7 @@ export default function FinancialRecord() {
         {financialData.map((data, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 p-4 border border-gray-200 rounded-xl"
+            className=" max-w-56 w-full flex flex-col gap-3 p-4 border border-gray-200 rounded-xl"
           >
             <p>{data.title}</p>
             <h3 className="font-bold text-base text-black">{data.amount}</h3>
